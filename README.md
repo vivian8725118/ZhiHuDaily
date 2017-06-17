@@ -1,5 +1,5 @@
 # ZhiHuDaily
-A simple iOS client for ZhiHu.
+A simple iOS client for ZhiHuDaily.
 
 # Using Library
 - Kingfisher
