@@ -19,13 +19,6 @@ class ArticleDetailViewController: UIViewController{
     override func viewDidLoad() {
         //监测横竖屏切换
         NotificationCenter.default.addObserver(self, selector: #selector(didChangeOrientation), name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil)
-        if(UIDevice.current.orientation == UIDeviceOrientation.portrait){
-            self.width = UIScreen.main.bounds.width
-            self.height = UIScreen.main.bounds.height
-        }else{
-            self.width = UIScreen.main.bounds.height
-            self.height = UIScreen.main.bounds.width
-        }
         
 //        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "分享", style: UIBarButtonItemStyle.plain, target: self, action: #selector(ArticleDetailViewController.share))
         

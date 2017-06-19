@@ -43,19 +43,19 @@
 		<true/>
 		<key>NSExceptionDomains</key>
 		<dict>
-			<key>mqzone</key>
+			<key>mqq</key>
 			<string></string>
-			<key>wtloginmqq2</key>
+			<key>mqqapi</key>
+			<string></string>
+			<key>mqqopensdkapiV2</key>
 			<string></string>
 			<key>mqqopensdkapiV3</key>
 			<string></string>
 			<key>mqqwpa</key>
 			<string></string>
-			<key>mqqopensdkapiV2</key>
+			<key>mqzone</key>
 			<string></string>
-			<key>mqqapi</key>
-			<string></string>
-			<key>mqq</key>
+			<key>wtloginmqq2</key>
 			<string></string>
 			<key>zhihu.com</key>
 			<dict>
@@ -86,8 +86,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
